@@ -64,7 +64,7 @@ function checkAnswer(currentLevel) {
       $("body").removeClass("game-over");
     }, 400);
 
-    $("h1").text(`Game Over ${username}, Press Any Key to Restart`);
+    $("h1").text(`Game Over ${username}, Press Any Button to Restart or Again`);
     startOver();
   }
 }
